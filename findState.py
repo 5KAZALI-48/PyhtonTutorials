@@ -1,6 +1,6 @@
 import re
-s = "abc123AUG|AZ|UGAasdfg789"
-pattern = "\|(.*?)\|"
+string = "abc123AUG|AZ|UGAasdfg789"
+state = "\|(.*?)\|"
 
-substring = re.search(pattern, s).group(1)
+substring = re.search(state, string).group(1)
 print(substring)
